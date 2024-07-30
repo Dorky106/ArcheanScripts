@@ -1,0 +1,76 @@
+function @SetLocateCelestial($alias:text, $v:text)
+	output_text($alias, 0, $v)
+
+function @SetLocateDistance($alias:text, $v:number)
+	output_number($alias, 1, $v)
+
+function @SetLocateDirectionX($alias:text, $v:number)
+	output_number($alias, 2, $v)
+
+function @SetLocateDirectionY($alias:text, $v:number)
+	output_number($alias, 3, $v)
+
+function @SetLocateDirectionZ($alias:text, $v:number)
+	output_number($alias, 4, $v)
+
+function @SetForwardVectorConfig($alias:text, $v:number)
+	output_number($alias, 5, $v)
+
+function @GetForwardAirspeed($alias:text): number
+	return input_number($alias, 0)
+function @GetVerticalSpeed($alias:text): number
+	return input_number($alias, 1)
+function @GetAltitudeTerrain($alias:text): number
+	return input_number($alias, 2)
+function @GetAboveTerrain($alias:text): number
+	return input_number($alias, 3)
+function @GetHorizonPitch($alias:text): number
+	return input_number($alias, 4)
+function @GetHorizonRoll($alias:text): number
+	return input_number($alias, 5)
+function @GetHeading($alias:text): number
+	return input_number($alias, 6)
+function @GetCourse($alias:text): number
+	return input_number($alias, 7)
+function @GetLatitude($alias:text): number
+	return input_number($alias, 8)
+function @GetLongitude($alias:text): number
+	return input_number($alias, 9)
+function @GetGroundSpeed($alias:text): number
+	return input_number($alias, 10)
+function @GetGroundSpeedForward($alias:text): number
+	return input_number($alias, 11)
+function @GetGroundSpeedSideways($alias:text): number
+	return input_number($alias, 12)
+function @GetCelesial($alias:text): text
+	return input_text($alias, 13)
+function @GetCelestialInnerRadius($alias:text): number
+	return input_number($alias, 14)
+function @GetCelestialOutterRadius($alias:text): number
+	return input_number($alias, 15)
+function @GetOrbitalSpeed($alias:text): number
+	return input_number($alias, 16)
+function @GetPeriapsis($alias:text): number
+	return input_number($alias, 17)
+function @GetApoapsis($alias:text): number
+	return input_number($alias, 18)
+function @GetProgradePitch($alias:text): number
+	return input_number($alias, 19)
+function @GetProgradeYaw($alias:text): number
+	return input_number($alias, 20)
+function @GetRetrogradePitch($alias:text): number
+	return input_number($alias, 21)
+function @GetRetrogradeYaw($alias:text): number
+	return input_number($alias, 22)
+function @GetLocatorDistance($alias:text): number
+	return input_number($alias, 23)
+function @GetLocatorPitch($alias:text): number
+	return input_number($alias, 24)
+function @GetLocatorYaw($alias:text): number
+	return input_number($alias, 25)
+function @GetOrbitalInclination($alias:text): number
+	return input_number($alias, 26)
+function @GetOrbitalTargetSpeed($alias:text): number
+	return input_number($alias, 27)
+function @GetOrbitalTargetAltitude($alias:text): number
+	return input_number($alias, 28)
