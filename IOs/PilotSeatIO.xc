@@ -25,29 +25,29 @@ function @GetMainThrust($Alias:text) : number
 function @GetAux1($Alias:text) : number
 	return input_number($Alias, 8)
 
-function @GetAux1($Alias:text) : number
+function @GetAux2($Alias:text) : number
 	return input_number($Alias, 9)
 
-function @GetAux1($Alias:text) : number
+function @GetAux3($Alias:text) : number
 	return input_number($Alias, 10)
 
-function @GetAux1($Alias:text) : number
+function @GetAux4($Alias:text) : number
 	return input_number($Alias, 11)
 
-function @GetAux1($Alias:text) : number
+function @GetAux5($Alias:text) : number
 	return input_number($Alias, 12)
 
-function @GetAux1($Alias:text) : number
+function @GetAux6($Alias:text) : number
 	return input_number($Alias, 13)
 
-function @GetAux1($Alias:text) : number
+function @GetAux7($Alias:text) : number
 	return input_number($Alias, 14)
 
-function @GetAux1($Alias:text) : number
+function @GetAux8($Alias:text) : number
 	return input_number($Alias, 15)
 
-function @GetAux1($Alias:text) : number
+function @GetAux9($Alias:text) : number
 	return input_number($Alias, 16)
 
-function @GetAux1($Alias:text) : number
+function @GetAux0($Alias:text) : number
 	return input_number($Alias, 17)
