@@ -33,9 +33,9 @@ function @OreConeRadar($screen:screen, $pivot:text, $scanner:text, $ore:text, $m
 	var $halfHeight = $screen.height / 2
 	var $maxSteps = $screen.width
 	if $Direction == 0
-		@SetPivotSpee($pivot, -0.01)
+		@SetPivotSpeed($pivot, -0.01)
 	else
-		@SetPivotSpee($pivot, 0.01)
+		@SetPivotSpeed($pivot, 0.01)
 	var $angle = @GetPivotAngle($pivot) * 2pi
 	if $angle <= 5.5 && $angle >= 5.49 ; Check if angel is between 45-47 to change direction
 		$Direction = 1
