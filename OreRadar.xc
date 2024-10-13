@@ -28,7 +28,7 @@ function @Ore360Radar($screen:screen, $pivot:text, $scanner:text, $ore:text, $ma
 
 function @OreConeRadar($screen:screen, $pivot:text, $scanner:text, $ore:text, $maxdistance:number)
 	$screen.draw(0, 0, color(0,0,0,0.5), $screen.width, $screen.height)
-	
+	var $Direction = 0
 	var $halfWidth = $screen.width / 2
 	var $halfHeight = $screen.height / 2
 	var $maxSteps = $screen.width
